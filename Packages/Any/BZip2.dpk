@@ -31,6 +31,6 @@ requires
   rtl;
 
 contains
-  BZip2 in 'BZip2.pas';
+  Compress.BZip2 in '..\..\Compress.BZip2.pas';
 
 end.

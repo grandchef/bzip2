@@ -1,11 +1,11 @@
-package BZip2XE10;
+package BZip2XE2;
 
 {$R *.res}
 {$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
 {$ALIGN 8}
 {$ASSERTIONS ON}
 {$BOOLEVAL OFF}
-{$DEBUGINFO OFF}
+{$DEBUGINFO ON}
 {$EXTENDEDSYNTAX ON}
 {$IMPORTEDDATA ON}
 {$IOCHECKS ON}
@@ -31,6 +31,6 @@ requires
   rtl;
 
 contains
-  BZip2 in 'BZip2.pas';
+  Compress.BZip2 in '..\..\Compress.BZip2.pas';
 
 end.
